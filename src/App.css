@@ -1,0 +1,11 @@
+div .App{
+  background-color: whitesmoke;
+  border-color: black;
+  border-style: solid;
+  height: 95vh;
+
+  margin: 20px;
+
+  align-self: center;
+  border-width: thin;
+}
