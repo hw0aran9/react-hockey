@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from 'react'; // , {Component}
 import "./Menubutton.css";
 
 class Menubutton extends React.Component {

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from 'react'; // , {Component}
 import "./Scoreboard.css"
 
 class Scoreboard extends React.Component {
@@ -13,7 +13,9 @@ class Scoreboard extends React.Component {
     return (
       <div className="ScoreboardWrapper">
         <div className="Scoreboard">
-          {this.state.score_player} : {this.state.score_opponent}
+          <span className="ScoreboardContent">
+            {this.state.score_player} : {this.state.score_opponent}
+          </span>
         </div>
       </div>
     )

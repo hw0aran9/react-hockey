@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react'; // , {Component}
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';

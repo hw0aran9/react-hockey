@@ -21,5 +21,9 @@ div .ScoreboardWrapper {
 
 div .Scoreboard {
   font-family: Wallpoet;
-  font-size: 90pt;
+  font-size: 6em; /*90pt*/
+}
+
+span .ScoreboardContent {
+  color: #a3a;
 }

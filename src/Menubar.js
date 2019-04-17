@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react'; // , {Component}
 import "./Menubar.css";
 import "./ButtonWrapper.css"
-import Menubutton from './Menubutton';
+//import Menubutton from './Menubutton';
+import MenubuttonAlt from './MenubuttonAlt';
 
 function Menubar ()
 {
   return (
           <div className="Menubar">
             <div className="ButtonWrapper">
-              <Menubutton />
-              <Menubutton />
-              <Menubutton />
+              <MenubuttonAlt />
+              <MenubuttonAlt />
+              <MenubuttonAlt />
             </div>
           </div>
   )
