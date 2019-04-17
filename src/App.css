@@ -1,7 +1,7 @@
 div .App{
   background-color: whitesmoke;
-  border-color: black;
-  border-style: solid;
+  border-color: blackrgb(82, 82, 82);
+  border-style: dashed;
   height: 95vh;
 
   margin: 20px;

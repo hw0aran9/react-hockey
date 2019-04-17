@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-//import "./Menubutton.css";
+import "./Menubutton.css";
 
 class Menubutton extends React.Component {
    constructor() {
      super();
      this.state = {
-       name         : "default",
-       pressedCount : 0
+       name         : "default"
      }
    }
    render() {

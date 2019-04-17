@@ -1,7 +1,8 @@
 div .Menubar{
   margin: 5px;
 
-  background-color: #33b;
+  background: linear-gradient(to right, whitesmoke, #00f29b, whitesmoke);
+
   color: whitesmoke;
   align: center;
 }

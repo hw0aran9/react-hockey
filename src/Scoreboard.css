@@ -1,0 +1,25 @@
+/*@font-face {
+  font-family: "facon";
+  src: url(./fonts/facon.ttf);
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Wallpoet');
+div .ScoreboardWrapper {
+  border-color: black;
+  border-style: dashed;
+  border-width: thin;
+
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+
+  width: 90%x;
+
+  margin: auto;
+}
+
+div .Scoreboard {
+  font-family: Wallpoet;
+  font-size: 90pt;
+}
